@@ -7,10 +7,12 @@ import torch
 from src.models.model import MyAwesomeModel
 from src.data.data import CorruptMnist
 import wandb
+import hydra
 #import logging
 
 import matplotlib.pyplot as plt
 
+@hydra.main(config_path="config", config_name='default_config.yaml')
 class TrainOREvaluate(object):
     """ Helper class that will help launch class methods as commands
         from a single script

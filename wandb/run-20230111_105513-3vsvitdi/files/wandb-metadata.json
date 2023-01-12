@@ -1,0 +1,99 @@
+{
+    "os": "Linux-5.4.0-136-generic-x86_64-with-glibc2.27",
+    "python": "3.11.0",
+    "heartbeatAt": "2023-01-11T09:55:14.889981",
+    "startedAt": "2023-01-11T09:55:13.997746",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "train"
+    ],
+    "state": "running",
+    "program": "/home/denisa/MLOPS/final_ex/src/models/train_model.py",
+    "codePath": "src/models/train_model.py",
+    "git": {
+        "remote": "https://github.com/denisaEn/final_ex.git",
+        "commit": "a73ec1ab3329c562bd607d4fd3d2e734d2510747"
+    },
+    "email": "enache.denisa98@gmail.com",
+    "root": "/home/denisa/MLOPS/final_ex",
+    "host": "denisa-vm",
+    "username": "denisa",
+    "executable": "/home/denisa/anaconda3/envs/my_env/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3124.32625,
+        "min": 800.0,
+        "max": 4100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2972.562,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3088.121,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3170.228,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2979.647,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3070.543,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3002.446,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2768.928,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3387.936,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3360.275,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3136.407,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3233.632,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3321.19,
+            "min": 800.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "total": 39.492523193359375,
+        "used": 23.036319732666016
+    },
+    "memory": {
+        "total": 7.623691558837891
+    }
+}
