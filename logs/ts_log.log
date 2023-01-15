@@ -1,0 +1,94 @@
+2023-01-15T15:57:20,940 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2023-01-15T15:57:20,940 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2023-01-15T15:57:20,987 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2023-01-15T15:57:20,987 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2023-01-15T15:57:21,411 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.7.0
+TS Home: /home/denisa/anaconda3/envs/my_environment/lib/python3.10/site-packages
+Current directory: /home/denisa/MLOPS/final_ex
+Temp directory: /tmp
+Metrics config path: /home/denisa/anaconda3/envs/my_environment/lib/python3.10/site-packages/ts/configs/metrics.yaml
+Number of GPUs: 0
+Number of CPUs: 12
+Max heap size: 1952 M
+Python executable: /home/denisa/anaconda3/envs/my_environment/bin/python3.10
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /home/denisa/MLOPS/final_ex/model_store
+Initial Models: N/A
+Log dir: /home/denisa/MLOPS/final_ex/logs
+Metrics dir: /home/denisa/MLOPS/final_ex/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 12
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /home/denisa/MLOPS/final_ex/model_store
+Model config: N/A
+2023-01-15T15:57:21,411 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.7.0
+TS Home: /home/denisa/anaconda3/envs/my_environment/lib/python3.10/site-packages
+Current directory: /home/denisa/MLOPS/final_ex
+Temp directory: /tmp
+Metrics config path: /home/denisa/anaconda3/envs/my_environment/lib/python3.10/site-packages/ts/configs/metrics.yaml
+Number of GPUs: 0
+Number of CPUs: 12
+Max heap size: 1952 M
+Python executable: /home/denisa/anaconda3/envs/my_environment/bin/python3.10
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /home/denisa/MLOPS/final_ex/model_store
+Initial Models: N/A
+Log dir: /home/denisa/MLOPS/final_ex/logs
+Metrics dir: /home/denisa/MLOPS/final_ex/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 12
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /home/denisa/MLOPS/final_ex/model_store
+Model config: N/A
+2023-01-15T15:57:21,620 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2023-01-15T15:57:21,620 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2023-01-15T15:57:21,786 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2023-01-15T15:57:21,786 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2023-01-15T15:57:21,787 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2023-01-15T15:57:21,787 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2023-01-15T15:57:21,788 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2023-01-15T15:57:21,788 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2023-01-15T15:57:21,788 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2023-01-15T15:57:21,788 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2023-01-15T15:57:21,789 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2023-01-15T15:57:21,789 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2023-01-15T15:57:22,621 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,623 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.578174591064453|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,623 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:26.887054443359375|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,623 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:71.8|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,624 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:3324.36328125|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,624 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:3545.96875|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,624 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:57.4|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:58:22,548 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,548 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.577594757080078|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,548 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:26.88763427734375|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,548 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:71.8|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,548 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:3325.3046875|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,549 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:3557.9296875|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,549 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:57.4|#Level:Host|#hostname:denisa-vm,timestamp:1673794702

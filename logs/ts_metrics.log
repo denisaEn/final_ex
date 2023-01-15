@@ -1,0 +1,14 @@
+2023-01-15T15:57:22,621 - CPUUtilization.Percent:0.0|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,623 - DiskAvailable.Gigabytes:10.578174591064453|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,623 - DiskUsage.Gigabytes:26.887054443359375|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,623 - DiskUtilization.Percent:71.8|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,624 - MemoryAvailable.Megabytes:3324.36328125|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,624 - MemoryUsed.Megabytes:3545.96875|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:57:22,624 - MemoryUtilization.Percent:57.4|#Level:Host|#hostname:denisa-vm,timestamp:1673794642
+2023-01-15T15:58:22,548 - CPUUtilization.Percent:0.0|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,548 - DiskAvailable.Gigabytes:10.577594757080078|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,548 - DiskUsage.Gigabytes:26.88763427734375|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,548 - DiskUtilization.Percent:71.8|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,548 - MemoryAvailable.Megabytes:3325.3046875|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,549 - MemoryUsed.Megabytes:3557.9296875|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
+2023-01-15T15:58:22,549 - MemoryUtilization.Percent:57.4|#Level:Host|#hostname:denisa-vm,timestamp:1673794702
